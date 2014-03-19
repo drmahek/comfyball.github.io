@@ -5,6 +5,67 @@ body {
   height: 100%;
   width: 100%;
 }
+.press {
+  border: 5px solid #7fbbda; // #ddd
+  border-radius: 10px;
+}
+.row-top {
+  padding: 0;
+}
+
+.jar {
+
+  vertical-align: middle;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jar .jumboland {
+    border-radius: 60px;
+}
+
+.jumboland {
+    top: 250px;
+
+    background-color: #EEEEEE;
+    opacity: .65;
+    color: inherit;
+   
+    padding: 30px;
+    border: 3px solid #7fbbda;
+    text-align: center;
+
+}
+
+
+#social-media {
+    top: 0;
+    left: 0;
+    margin: 0 0 26px 20px;
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+#menu-toggle-twitter {
+  bottom: 0;
+  left: 50%;
+  position: fixed;
+  z-index: 1;
+}
+
+.
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  text-align: right;
+  border-right: 5px solid #eee;
+  border-left: 0;
+}
 
 .text {
   padding: 30;
@@ -12,6 +73,16 @@ body {
   font-size: 4.5em;
   font-weight: 700;
   color: black;
+}
+.vert-text-landing {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 4px;
+  border-color: black;
+  border-width: 4px;
+  opacity: .85;
+  width: 45%;
 }
 
 .vert-text {
@@ -22,6 +93,7 @@ body {
   border-color: black;
   border-width: 4px;
   opacity: .85;
+
 }
 
 .vert-text h1 {
@@ -33,12 +105,12 @@ body {
 /* Thumb Nail */
 .thumbnail {
   display: block;
-  padding: 50px;
+  padding: 25px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: #7fbbda;
-  border: 2px solid #ddd;
-  border-radius: 4px;
+  background-color: #white;
+  border: 5px solid #7fbbda; // #ddd
+  border-radius: 10px;
   -webkit-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
@@ -136,7 +208,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/water_front_low_res.jpg) no-repeat center center fixed; 
+  background: url(../img/boston.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -180,7 +252,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/callout.jpg) no-repeat center center fixed; 
+  background: url(../img/IMG_0375.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
